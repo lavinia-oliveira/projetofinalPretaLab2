@@ -1,5 +1,5 @@
-import fluxoImg from '../../assets/fluxo.png'
 import fotoPerfil from '../../assets/foto-perfil.png'
+import lav from '../../assets/lavinia-oliveira.jpg'
 import styles from './sobre.module.css'
 
 const Sobre = () => {
@@ -23,7 +23,7 @@ const Sobre = () => {
       </div>
 
       <div className={styles.subtitulo}>
-        <img src={fluxoImg} />
+        <img src={lav} />
         <p>
         Apaixonada por arte, música e tecnologia (como UX/UI e Front-End), busca constantemente por novas perspectivas e abordagens multidisciplinares.
         </p>
