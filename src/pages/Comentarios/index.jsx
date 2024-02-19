@@ -2,7 +2,7 @@ import { useState, useEffect } from 'react'
 import { FiTrash2, FiPlus } from 'react-icons/fi'
 import { nanoid } from 'nanoid'
 
-import homeImg from '../../assets/vagas.svg'
+import homeImg from '../../assets/homeimg.svg'
 
 import styles from './Comentarios.module.css'
 

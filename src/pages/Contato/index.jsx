@@ -1,5 +1,5 @@
 import { useState } from 'react'
-import contatoImg from '../../assets/contato.svg'
+import homeImg from '../../assets/homeimg.svg'
 
 import styles from './Contato.module.css'
 
@@ -23,7 +23,7 @@ function Contato() {
   function handleCreateMessage(event) {
     event.preventDefault();
   
-    const messageData = {
+    const mensagem = {
       textMessage: mensagem,
       email: email,
       nome: nome,
@@ -40,7 +40,7 @@ function Contato() {
         <h1>
           Entre em contato
         </h1>
-        <img src={contatoImg} />
+        <img src={homeImg} />
       </div>
       <div className={styles.formContainer}>
         <form onSubmit={handleCreateMessage} className={styles.form}>
